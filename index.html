@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Container for Art Gallery Favs -->
+    <div class="container">
+        <div class="gallery">
+            <br>
+            <figure class="gallery__item gallery__item--1" id="bigriver" onclick="event.stopPropagation(); getArt(this.id, event)">
+                <img class="gallery__img shadow-lg" src="images/Big River, from the Rancherie, Mendocino,....jpg" alt="63554">
+            </figure>
+                <br>
+            <figure class="gallery__item gallery__item--2" id="thebeach" onclick="event.stopPropagation(); getArt(this.id, event)" >
+                <img class="gallery__img shadow-lg" src="images/Cliff Walk at Pourville.jpg" alt="14620">
+            </figure>
+                <br>
+            <figure class="gallery__item gallery__item--3" id="mountainbrook" onclick="event.stopPropagation(); getArt(this.id, event)">
+                <img class="gallery__img shadow-lg" src="images/Mountain Brook.jpg" alt="146701">
+            </figure>
+                <br>
+            <figure class="gallery__item gallery__item--4" id="oaktree" onclick="event.stopPropagation(); getArt(this.id, event)">
+                <img class="gallery__img shadow-lg" src="images/Old Oaks at Bas Bréau.jpg" alt="71">
+            </figure>
+                <br>
+            <figure class="gallery__item gallery__item--5" id="gamefowl" onclick="event.stopPropagation(); getArt(this.id, event)">
+                <img class="gallery__img shadow-lg" src="images/Still Life with Game Fowl.jpg" alt="84709">
+            </figure>
+                <br>
+            <figure class="gallery__item gallery__item--6" id="ocean" onclick="event.stopPropagation(); getArt(this.id, event)">
+                <img class="gallery__img shadow-lg" src="images/Bordighera.jpg" alt="81537">
+            </figure>
+        </div>
+    </div>
+    
+</body>
+</html>
